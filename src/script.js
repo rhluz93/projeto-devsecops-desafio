@@ -17,7 +17,7 @@ fetch('db.json')
     .catch(() => {
         // CORREÇÃO 2: Mensagem genérica sem expor detalhes internos
         document.getElementById('db-status').innerText =
-            '❌ Erro ao conectar. Tente novamente.';
+            'Erro ao conectar. Tente novamente.';
     });
 
 function addTask() {
